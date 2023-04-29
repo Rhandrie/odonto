@@ -1,130 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/hotel.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Hotel Turin">
+  <meta name="keyword" content="Hotel, Lazer, Luxo, Descanso, Gastronomia internacional">
 
-    <title>Hotel</title>
-    
+  <!-- https://smallseotools.com/pt/robots-txt-generator/ metas para robos  -->
+  <!-- https://metatags.io/ metas de acordo com as redes -->
+
+  <!-- Primary Meta Tags -->
+  <title>Hotel Turin </title>
+  <meta name="title" content="Hotel Turin">
+  <meta name="description"
+    content="Nossos hóspedes são exploradores à procura de locais populares para tesouros escondidos. Oferecemos aos hóspedes uma experiência local com a energia de um hotel boutique. Perto do Aeroporto. Perto do Museu de Arte. Arquitetura local. Restaurante Stella.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hotelturin.com.br/">
+  <meta property="og:title" content="Hotel Turin ">
+  <meta property="og:description"
+    content="Nossos hóspedes são exploradores à procura de locais populares para tesouros escondidos. Oferecemos aos hóspedes uma experiência local com a energia de um hotel boutique. Perto do Aeroporto. Perto do Museu de Arte. Arquitetura local. Restaurante Stella.">
+  <meta property="og:image"
+    content="img/imagem.fora.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://www.hotelturin.com.br/">
+  <meta property="twitter:title" content="Hotel Turin ">
+  <meta property="twitter:description"
+    content="Nossos hóspedes são exploradores à procura de locais populares para tesouros escondidos. Oferecemos aos hóspedes uma experiência local com a energia de um hotel boutique. Perto do Aeroporto. Perto do Museu de Arte. Arquitetura local. Restaurante Stella.">
+  <meta property="twitter:image"
+    content="img/imagem.fora.png">
+
+
+  <meta name="robots" content="intex,follow">
+
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/hotel.css">
+
+  <title>Hotel</title>
+
 </head>
+
 <body class="container-fluid">
-    <!-- inicio de navegação  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">hotel</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" tabindex="1" href="#">Home</a>
+  <!-- inicio de navegação  -->
+  <nav class="navbar navbar-expand-lg bg-nav-color txt-nav-color">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Hotel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" tabindex="1" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hotel.html">Hotel</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="a" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Acomodação
+            </a>
+            <ul class="dropdown-menu bg-nav-color txt-nav-color">
+              <li><a class="dropdown-item txt-nav-color" href="standard.html">Standard</a></li>
+              <li><a class="dropdown-item txt-nav-color" href="double.html">Double</a></li>
+              <li><a class="dropdown-item txt-nav-color" href="master.html">Master</a></li>
+              <li>
+                <hr class="dropdown-divider">
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hotel.html">Hotel</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="a" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Acomodação
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="standard.html">Standard</a></li>
-                  <li><a class="dropdown-item" href="double.html">Double</a></li>
-                  <li><a class="dropdown-item" href="master.html">Master</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="presidencial.htmal">Presidencial</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="lazer.html">Lazer</a>
-              </li>
-
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="eventos.html">Eventos</a>
-            </li>
-
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="tarifas.html">Tarifas</a>
-        </li>
-
-        </li>
-        <li class="nav-item">
-         <a class="nav-link" href="reservas.html">Reservas</a>
-        </li>
-
+              <li><a class="dropdown-item txt-nav-color " href="presidencial.htmal">Presidencial</a></li>
             </ul>
-          
-          </div>
-        </div>
-      </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lazer.html">Lazer</a>
+          </li>
 
-<!-- final de barra de navegação  -->
-<!-- Inicio do carrosel -->
-<div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
-      
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eventos.html">Eventos</a>
+          </li>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tarifas.html">Tarifas</a>
+          </li>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservas.html">Reservas</a>
+          </li>
+
+        </ul>
+
+      </div>
     </div>
+  </nav>
+
+  <!-- final de barra de navegação  -->
+  <!-- Inicio do carrosel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 4"></button>
+
+    </div>
+
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/area51.png" class="d-block w-100" alt="...">
+        <img src="img/area51.png" class="d-block w-100" alt="SALA">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
+          <h5>Sala de estar</h5>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/painel1.png" class="d-block w-100" alt="...">
+        <img src="img/painel1.png" class="d-block w-100" alt="ACOMODAÇÃO PARA DUAS PESSOAS">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
+          <h5>Acomodação Para Duas Pessoas</h5>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/panel2.png" class="d-block w-100" alt="...">
+        <img src="img/panel2.png" class="d-block w-100" alt="SPA">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
+          <h5>SPA</h5>
           <p>Some representative placeholder content for the third slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/panel3.png" class="d-block w-100" alt="...">
+        <img src="img/panel3.png" class="d-block w-100" alt="SALA SUPERIOR">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
+          <h5>Sala no Andar Superior</h5>
           <p>Some representative placeholder content for the third slide.</p>
         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/panel4.png" class="d-block w-100" alt="BAR">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bar de Espera</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/panel5.png" class="d-block w-100" alt="">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-<!-- fim do carrosel -->
-<header>
-    
+    <!-- fim do carrosel -->
+    <header>
+    </header>
+    <main></main>
+
+    <footer>
 
 
+      <div class="card text-center">
+        <div class="card-header">
+          <a href="http://www.facebook.com" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
 
-</header>
-<main></main>
-<footer></footer>
+          </a>
+          <a href="http://www.instagram.com" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+
+          </a>
+
+          <a href="http://www.youtube.com" target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+
+          </a>
+
+          <a href="http://www.wa.me/5511985633023" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+
+          </a>
+
+
+        </div>
+
+        <div class="card-body">
+
+          Endereço: Avenida Nações Unidas, n° 52463, São Paulo - SP
+          Contato: 11979685412 | 11475558962
+          E-Mail:<a href="mailto:contato@hotel.com.br?Subject=Contato&Body='Olá'&CC=gerencia@hotel.com.br">
+            contato@hotel.com.br
+          </a>
+
+
+        </div>
+        <div class="card-footer text-body-secondary">
+         
+        </div>
+      </div>
 
 
 
-<script src="js/bootstrap.bundle.min.js"></script>    
+
+    </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
