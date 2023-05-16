@@ -1,0 +1,233 @@
+
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+.bg-nav-color{
+ background-color:rgba(232, 238, 240, 0.972);
+
+}
+
+.txt-nav-color{
+color: rgb(0, 0, 0);
+font-size: 15px;
+
+
+}
+
+header .img {
+    max-height: 50px !important;
+    max-height:50px !important;
+    width: auto;
+    height: auto;
+}
+
+
+body{
+    margin: 0 !important;
+    width: 100vw;
+    padding: 100!important;
+    scroll-behavior: smooth;
+}
+
+/* #link-topo {
+text-decoration:none!important;
+color:#000000!important;
+background: rgba(232, 238, 240, 0.972)!important;
+padding: 30px!important;
+position: fixed!important;
+left: 10px!important;
+bottom: 30px!important;
+box: 3px 3px 10px #333!important;
+
+}
+
+#btnTop{
+
+position: fixed!important;
+left: 10px!important;
+bottom: 30px!important;
+width: 50px;
+height: 50px;
+background-color: #000000;
+
+} */
+footer .card{
+    background-color:rgba(232, 238, 240, 0.972)
+    !important;
+    border-radius: 0;
+}
+
+footer .card-body{
+/* height: 20px;   */
+/* text-align: center; */
+color: rgb(9, 9, 9);
+/* padding: 80px 80px; */
+}
+
+
+footer .card-header{
+    background-color:rgba(232, 238, 240, 0.972)
+    !important;
+}
+
+footer .card-header a{
+    text-decoration: none;
+    color:black;
+    border-radius: 0;
+    margin: 0 5px;
+    font-size: 20px;
+}
+footer .card-header a:hover{
+    color:rgba(36, 61, 171, 0.801)
+}
+
+footer .card-body a{
+    color: rgba(3, 3, 3, 0.877)!important;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer h8{
+    font-size: 25px;
+    /* font-weight: */
+}
+
+main .card-body {
+    padding: 5px 10px!important;
+    margin-top: 25px!important;
+    margin-bottom: 25px!important;
+    text-align: center!important;
+
+}
+
+main .col{
+    margin-top: 80px!important;
+    margin-bottom: 25px!important;
+
+}
+
+
+main .card-footer{
+    text-align: center!important;
+    color: black!important;
+
+}
+
+main .card-title{
+color: rgba(77, 141, 231, 0.872)!important;
+}
+
+main h9 p {
+    text-align: center!important;
+    font-size: 30px;
+    color: black!important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+
+}
+main h10 p {
+    text-align: center!important;
+    font-size: 30px;
+    color: black!important;
+    margin-top: 25px!important;
+    margin-bottom: 20px!important;
+
+}
+
+main h11 p {
+    text-align: center!important;
+    font-size: 30px;
+    color: black!important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+
+}
+main h12 p {
+    text-align: center!important;
+    font-size: 25px;
+    color: black!important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+
+}
+main h13 p {
+    text-align: center!important;
+    font-size: 25px;
+    color: black!important;
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+}
+
+main h13 {
+   
+    margin: 150px!important;
+
+
+}
+main h14 .card-header{
+    padding: 10px 10px 10px !important;
+    background-color:rgba(232, 238, 240, 0.972);
+    font-size: 25px;
+    text-align: center!important;
+
+}
+
+main h14 .card-text{
+   
+    background-color:rgba(232, 238, 240, 0.972);
+    font-size: 25px;
+    text-align: center!important;
+}
+main h14 .card-consultorio{
+    background-color:rgba(232, 238, 240, 0.972);
+    padding: 25px 25px 25px 25px!important;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main p2 .card-title{
+    color: rgb(0, 0, 0)!important;
+    font-size: 35px;
+    text-align: center!important;
+
+}
+main p2 .card-text-card {
+    color: rgba(77, 141, 231, 0.872)!important;
+    font-size: 35px;
+    text-align: center!important;
+}
+/* main .div-principal{
+
+    width: 450px!important;
+    height: 450px;
+    display: flex!important;
+
+} */
+
+/* 
+
+
+.div-esquerda{
+    float: left;
+}
+
+.div-direita{
+    float: right;
+} */
